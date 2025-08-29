@@ -1,0 +1,426 @@
+.parent {
+    position: relative;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7); 
+    text-align: center; 
+    padding: 15px 0;
+}
+*{
+    padding:0;
+    margin :0;
+     box-sizing: border-box;
+}
+.child {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -800px;
+    margin-left: 900px;
+}
+
+.child div {
+    display: inline-block;
+    vertical-align: middle;
+    margin: -90px; 
+    cursor: pointer;
+}
+
+.child div:hover {
+    color: #f5d27c; 
+}
+
+    .memo1 {
+    margin-top: -800px;
+    margin-right: 1200px;
+    color: white;
+}
+.memo2{
+  
+
+    margin-top: 250px;
+    font-size: x-large;
+    font-family:  sans-serif;
+    
+
+}
+ .button{
+        margin-top: 30px;
+        font-family: "Alegreya Sans";
+     padding: 40px
+ }
+
+ .button  .b1 ,.b2{
+        
+        border-radius: 5%;
+    padding: 17px 28px;
+    font-size: 20px;
+    cursor: pointer;   
+ }
+ .b1{
+    color:white ; background-color: #8e7754 ;font-weight: bold;
+    order: 2px solid #8e7754;
+ }
+ .b2{
+ color:white ;
+ border: 2px solid white;
+    background-color: transparent; font-weight: bold; margin-left: 20px;
+
+ }
+   .b1:hover {
+    color: black;
+    background: white;
+}
+.b2:hover{
+    color: black;
+    background: white;
+}
+  
+.section {
+    width: 90%;
+    margin: auto;
+    padding : 300px;
+}
+
+.m2 {
+    float: left;
+    width: 45%;
+}
+
+.m2 img {
+    width: 100%;
+    height: auto;
+    margin-left: -100px;
+}
+
+.m21 {
+    float: left ;
+    width: 50%;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+.h{    font-size: 40px;
+        font-family:"Alegreya Sans";
+        color: #303030;
+            font-weight: 700;
+            margin-bottom: 25px;
+
+
+}
+.p{
+    
+    font-family: "Alegreya Sans";
+    font-size: 20px;
+        color: #303030b3;
+
+     }
+.m21 ul {
+    list-style: none;
+    padding: 0;
+        font-family: "Alegreya Sans";
+    font-size: 19px;
+
+}
+i{
+color : #8e7754;
+    background: none ;
+    border: 1px solid rgba(0, 0, 0, .15);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+
+    font-size: 30px;
+    
+   
+    text-align: center;
+}
+.m21 li {
+  
+        margin: 17px 0;
+    font-size: 30px;
+    font-family: "Alegreya Sans";
+    color:#303030b3;
+    
+}
+
+.clear {
+    clear: both;
+}
+.section2 {
+    width: 90%;
+    margin: auto;
+    padding : 300px;
+   
+    background: #f8f8f8;
+}
+
+.m3 {
+    float: left;
+    width: 60%;
+    font-family: sans-serif;
+     margin-top: 70px;
+}
+
+.m31 {
+    float: right;
+    width: 35%;
+}
+
+.m31 img {
+       max-width: 150%;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 80px;
+}
+
+.clear2 {
+    clear: both;
+}
+ .h2{
+    font-size: 40px;
+        font-family:"Alegreya Sans";
+        color: #303030;
+            font-weight: 700;
+ }
+ .p2{
+     font-family: "Alegreya Sans";
+    font-size: 20px;
+        color: #303030b3;
+        
+ }
+ .section3 {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0;
+    font-family: Georgia, serif;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+
+.mero33, .mero44, .mero55 {
+    float: left;
+    width: 30%;
+    margin: 1.66%;
+    
+}
+
+.mero33 img, .mero44 img, .mero55 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.mero33 h3, .mero44 h3, .mero55 h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.mero33 p, .mero44 p, .mero55 p {
+    font-size: 15px;
+  
+    color: #666;
+}
+
+.clear3 {
+    clear: both;
+}
+.container {
+     width: 90%;
+    margin: auto;
+    padding: 300px;
+    background: #f8f8f8;
+       
+         
+        
+          
+}
+.c1{
+    padding: 30px;
+        margin-left: -100px;
+            color: #303030;
+    line-height: 1.38em;
+    font-size: 32px;
+}
+
+.c2{
+      margin-left: -80px;
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+     color: #555;
+
+}
+.c3{
+     margin-left: -50px;
+    padding: 50;
+    font-family: "Alegreya Sans";
+    font-size: 25px;
+    font-weight: lighter;
+}
+.left {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 50px;
+      margin-top: -200px;
+}
+
+.right {
+  float: right;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.right img {
+      width: 100%;
+    height: auto;
+    display: block;
+     margin-top: -100px;
+    margin-left: 100px;
+}
+
+.item {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.icon {
+  float: left;
+  background-color: #8b6b3f;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+.text {
+  float: left;
+  line-height: 40px;
+ font-size: 18px;
+      font-weight: 400;
+    color: #686868;
+}
+
+.clear {
+  clear: both;
+}
+.footer {
+       width: 100vw;
+  background-color: #2f2c28db;
+    color: #fff;
+    padding: 300px 0;
+    box-sizing: border-box;
+    margin-left: -430px;
+        
+}
+
+    .footer-col {
+        float: left;
+    width: 25%;
+    padding: 0 40px;
+    margin-top: -200px;
+    }
+    .footer h3 {
+      color: #fff;
+    }
+
+    .footer p, .footer li, .footer a {
+          font-size: 15px;
+    color: #ccc;
+    line-height: 4.6;
+    
+    }
+
+    .footer li {
+      list-style-type: decimal;
+      margin-bottom: 8px;
+    }
+
+    
+    .footer i {
+      margin-right: 8px;
+    }
+
+    .footer2 {
+  width: 100vw;
+  background-color: #2f2c28;
+  color: #ccc;
+  text-align: center;
+  padding: 40px 0 80px;
+  position: relative;
+  font-family: Arial, serif;
+  margin-left: -430px;
+  
+}
+
+
+.footer2 .footer-logo {
+  float: none; 
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer2 .footer-logo img {
+      width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.footer2 .footer-logo h2 {
+  font-size: 36px;
+  color: #fff;
+  margin: 0;
+}
+
+
+.footer2 .copyrights {
+    font-size: 20px;
+  color: #999;
+  margin: 20px 0;
+  clear: both;
+}
+
+
+.footer2 .social {
+  width: 300px; 
+  margin: 0 auto; 
+      padding: 30px;
+ 
+}
+
+.footer2 .social div {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin: 0 8px;
+  background-color: #44403c;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 18px;
+
+  text-align: center;
+  
+}
+
+
+
+

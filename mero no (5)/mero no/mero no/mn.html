@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mealify</title>
+
+
+  <link rel="stylesheet" href="ms.css">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/clip-path-polygon/dist/clip-path-polygon.css">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <input type="checkbox" id="dark-toggle" hidden>
+
+
+  <nav>
+    <h1>Mealify<span>.</span></h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#chefs">Chefs</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <label for="dark-toggle">
+     <div class="dark"><i class="fa-solid fa-moon"></i></div> 
+    </label>
+  </nav>
+
+
+  <section class="hero" id="home">
+    <div class="content">
+      <h2>Enjoy Your Healthy<br>Delicious Food</h2>
+      <p>
+        Sed autem laudantium dolores. Voluptatem itaque ea consequatur<br> eveniet.
+        Eum quas beatae cumque eum quaerat.
+      </p>
+      <div class="buttons">
+        <a href="#booking" class="book-btn">Book a Table</a>
+        <a href="#video" class="video-btn">
+          <div class="icon">
+            <i class="fa-solid fa-play"></i>
+          </div>
+          Watch a Video
+        </a>
+      </div>
+
+    </div>
+    <img src="./photos/hero-img.png">
+  </section>
+
+  <section id="chefs" class="chefs-section">
+    <h3 class="uoh">CHEFS</h3>
+    <h2>Our <span>Professional</span> Chefs</h2>
+
+    <div class="chefs-container">
+      <div class="chef-card">
+
+        <div class="chef-image">
+          <img src="../photos/chefs-1.jpg" alt="Walter White">
+
+        </div>
+        <div class="paragraph-wave-container">
+
+          <div class="wave-layer"></div>
+          <h4>Walter White</h4>
+          <span>Master Chef</span>
+          <p>
+            Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut.
+            Ipsum exercitationem iure minima enim corporis et voluptate.
+          </p>
+
+        </div>
+
+
+      </div>
+
+      <div class="chef-card">
+        <div class="chef-image">
+          <img src="../photos/chefs-2.jpg" alt="Walter White">
+
+        </div>
+        <div class="paragraph-wave-container">
+
+          <div class="wave-layer"></div>
+          <h4>Walter White</h4>
+          <span>Master Chef</span>
+          <p>
+            Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut.
+            Ipsum exercitationem iure minima enim corporis et voluptate.
+          </p>
+
+        </div>
+
+      </div>
+
+
+
+
+      <div class="chef-card">
+        <div class="chef-image">
+          <img src="../photos/chefs-3.jpg" alt="Walter White">
+
+        </div>
+
+
+
+        <div class="paragraph-wave-container">
+
+          <div class="wave-layer"></div>
+          <h4>Walter White</h4>
+          <span>Master Chef</span>
+          <p>
+            Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut.
+            Ipsum exercitationem iure minima enim corporis et voluptate.
+          </p>
+
+        </div>
+      </div>
+    </div>
+    <section id="chefs">
+
+    </section>
+
+    <section id="gallery">
+
+    </section>
+
+    <section id="contact">
+
+    </section>
+
+    <div class="gallery">
+      <h2>Check Our Gallery</h2>
+
+      <div class="gallery-flex">
+
+        <div class="gallery-column">
+          <div class="gallery-item resizable meal1">
+            <img src="../photos/meal-1.jpg" alt="Pizza 1">
+            <div class="overlay">Pizza 1</div>
+          </div>
+          <div class="gallery-item resizable meal2">
+            <img src="../photos/meal-4.jpg" alt="Pizza Floating">
+            <div class="overlay">Pizza Floating</div>
+          </div>
+        </div>
+
+        <div class="gallery-column">
+          <div class="gallery-item resizable meal3">
+            <img src="../photos/meal-2.jpg" alt="Steak Grilled">
+            <div class="overlay">Steak Grilled</div>
+          </div>
+          <div class="gallery-item resizable meal4">
+            <img src="../photos/meal-7.jpg" alt="Burger">
+            <div class="overlay">Burger</div>
+          </div>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="gallery-column">
+          <div class="gallery-item resizable meal5">
+            <img src="../photos/meal-3.jpg" alt="Fried Chicken">
+            <div class="overlay">Fried Chicken</div>
+          </div>
+          <div class="gallery-item resizable meal6">
+            <img src="../photos/meal-5.jpg" alt="Kebab" class="nemo">
+            <div class="overlay">Kebab</div>
+          </div>
+          <div class="gallery-item resizable meal7">
+            <img src="../photos/meal-6.jpg" alt="Risotto">
+            <div class="overlay">Risotto</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="contact-header">
+      <div class="contact"> contact</div>
+      Need Help? <span>Contact Us</span>
+    </div>
+
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24157.938926895706!2d-74.01311956311835!3d40.70809874674904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a316020a935%3A0x95b34627a73a8a0d!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1693159682229!5m2!1sen!2sus"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Map"></iframe>
+    </div>
+
+    <div class="contact-info">
+
+      <div class="box">
+        <div class="icon5"><i class="fas fa-map-marked-alt"></i></div>
+        <div class="text">
+          <h4>Our Address</h4>
+          <p>A108 Adam Street, New York, NY 535022</p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="icon5"><i class="fas fa-envelope  no4"></i></div>
+        <div class="text">
+          <h4>Email Us</h4>
+          <p>contact@example.com</p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="icon5"><i class="fas fa-phone-alt no4"></i></div>
+        <div class="text">
+          <h4>Call Us</h4>
+          <p>+1 5589 55488 55</p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="icon5"><i class="fas fa-share-alt"></i></div>
+        <div class="text">
+          <h4>Opening Hours</h4>
+          <p><strong>Mon-Sat:</strong> 11AM - 23PM;<strong>Sunday:</strong> Closed</p>
+        </div>
+      </div>
+    </div>
+
+    <form class="contact-form">
+      <div class="form-row">
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="Your Email" />
+      </div>
+      <div class="form-row-subject">
+        <input type="text" placeholder="Subject" />
+      </div>
+      <textarea placeholder="Message"></textarea>
+      <button type="submit" class="btn-submit">Send Message</button>
+    </form>
+
+
+
+
+
+    <footer>
+      <div class="container4">
+        <div class="first-col">
+          <div class="upper">
+            <div class="img"><img class="hatot" src="../photos/fc870feb-0e9e-467c-bd98-b0805e353c42.jpg"></div>
+            <h3 class="no12">Mealify<span class="yolo">.</span></h3>
+            <p class="no8">
+              Mealify is a restaurant landing page that offers a delicious
+              dining experience to its customers.
+            </p>
+          </div>
+          <div class="lower">
+            <h3 class="no9">Social Media</h3>
+            <div class="links">
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="second-col">
+          <h3 class="no9">Subscribe our Newsletter</h3>
+          <p class="no8">
+            Don't miss out on our latest menu updates and exclusive offers
+            join our newsletter today and stay up-to-date with all things
+            Mealify!
+          </p>
+          <div class="sub">
+            <input type="email" placeholder="Enter Your Email Address" />
+            <button>Subscribe</button>
+          </div>
+          <br />
+          <h3 class="no9">Quick Links</h3>
+          <ul class="link-list">
+            <li class="list-item">
+              <a href="#">
+                <div class="n01"><i class="fa-solid fa-angle-right"></i> Menu</div>
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="#">
+                <div class="n02"><i class="fa-solid fa-angle-right"> </i> About Us</div>
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="#">
+                <div class="n03"><i class="fa-solid fa-angle-right"></i> Testimonial</div>
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="#">
+                <div class="n04"><i class="fa-solid fa-angle-right"> </i>Promo</div>
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="#">
+                <div class="n05"><i class="fa-solid fa-angle-right"> </i> Contact</div>
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="#">
+                <div class="n06"><i class="fa-solid fa-angle-right"> </i> Our Partners</div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="third-col">
+          <h3 class="no9">Get in Touch</h3>
+          <div class="ah12">
+            <i class="fa-solid fa-location-dot"></i> A108 Adam Street, New York,
+            NY 535022
+          </div>
+          <div class="ah"><i class="fa-regular fa-envelope"></i> contact@example.com</div>
+          <div class="ah1"><i class="fa-solid fa-phone"></i> +1 5589 55488 55</div>
+        </div>
+      </div>
+    </footer>
+
+</body>
+
+</html>
