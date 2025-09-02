@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+ .gallary{
+    background-color: white;
+     display: flex ;
+     flex-wrap:wrap;
+   
+}
+ .item{
+    background-color: brown;
+    width: calc(25% - 25px);
+    margin-left: 25px;
+
+ }
+ .item img {
+    width: 100%;
+ }
